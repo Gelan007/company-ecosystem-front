@@ -47,4 +47,5 @@
 
 .menu__link:hover {
     text-decoration: underline;
+    color: #4D47C3;
 }
