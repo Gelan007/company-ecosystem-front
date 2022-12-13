@@ -1,2 +1,2 @@
 # company-ecosystem-front
-Reactjs. Главная страница, админ панель, авторизация
+Reactjs. Main page, admin panel, login
