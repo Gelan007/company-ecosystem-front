@@ -1,0 +1,89 @@
+.adminItemContainer {
+    border-bottom: 2px solid #e7e5e5;
+    padding-left: 50px;
+}
+
+.content {
+    padding: 45px 20px 45px 0;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    word-wrap: anywhere;
+}
+
+.item:not(:last-child) {
+    padding-right: 30px;
+}
+
+.spaceBetweenLinkButtons {
+    margin-right: 20px;
+}
+
+.editButton {
+    cursor: pointer;
+}
+
+.deleteButton {
+    cursor: pointer;
+}
+
+.saveButton img{
+    width: 19px;
+}
+
+.deleteButton img {
+    width: 20px;
+}
+
+/*
+.photoContainer img{
+    max-width: 250px;
+}
+*/
+
+.photoContainerThings {
+    display: flex;
+    width: 350px;
+    overflow-x: auto;
+}
+
+.photoContainerThings >*:not(:last-child) {
+    margin-right: 30px;
+}
+
+.photoContainerThings >* {
+    min-width: 350px;
+}
+
+
+.photoContainer {
+    position: relative;
+    min-height: 200px;
+}
+
+.photoContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+
+
+/*.photoContainerThings img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}*/
+
+
+

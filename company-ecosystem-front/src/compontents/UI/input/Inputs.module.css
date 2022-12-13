@@ -1,0 +1,52 @@
+.purpleInput {
+    background: #F0EFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6661e7;
+    width: 100%;
+    height: 62px;
+    font-family: inherit;
+    padding-left: 25px;
+    outline: none;
+}
+
+.purpleInput::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A7A3FF;
+    font-family: 'Poppins', sans-serif;
+}
+.purpleInput:focus {
+    outline: 1px solid #4D47C3;
+}
+
+
+
+.inputAdmin {
+    background: #F0EFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #6661e7;
+    width: 100%;
+    font-family: inherit;
+    padding: 5px;
+    outline: none;
+
+}
+
+.inputAdmin::placeholder {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #A7A3FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputAdmin:focus {
+    outline: 1px solid #4D47C3;
+}
